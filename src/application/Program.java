@@ -55,7 +55,7 @@ public class Program {
 					.reduce(0.0,(x, y ) ->x + y);
 			
 			System.out.printf("Sum of salary of people whose name starts with 'M': "+ String.format("%.2f", soma));	
-		
+	
 		}
 		catch(IOException i) {
 			System.out.printf("Error "+ i.getMessage());
